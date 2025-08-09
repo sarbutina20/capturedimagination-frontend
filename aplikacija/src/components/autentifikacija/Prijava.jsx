@@ -1,4 +1,4 @@
-import { useNavigate, Form, useActionData } from "react-router-dom";
+import { Form, useActionData } from "react-router-dom";
 import styles from "./autentifikacija.module.css";
 import Button from "../UI/Button/Button";
 

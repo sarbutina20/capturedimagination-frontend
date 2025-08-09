@@ -4,7 +4,7 @@ import MainLayout from "./routes/MainLayout";
 import { loaderKnjige, PrikazKnjiga } from "./components/knjiga/PrikazKnjiga";
 import { Prijava } from "./components/autentifikacija/Prijava";
 import { actionOdjava } from "./components/autentifikacija/Odjava";
-import { loaderAutentifikacija, tokenLoader } from "./components/autentifikacija/token";
+import { loaderAutentifikacija } from "./components/autentifikacija/token";
 import Registracija, { actionRegistracija } from "./components/autentifikacija/Registracija";
 import App from "./App";
 import { createBrowserRouter } from "react-router-dom";
