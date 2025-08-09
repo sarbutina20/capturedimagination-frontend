@@ -1,0 +1,49 @@
+
+.knjigaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-right: 1em;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 3px #ccc;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+.knjigaContainer h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.knjigaContainer h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.knjigaContainer h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.knjigaContainer button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+
+
+.knjigaContainer img {
+    margin-top: 1em;
+}

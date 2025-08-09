@@ -1,0 +1,75 @@
+.knjigeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.knjiga {
+  flex-basis: calc(25.33% - 20px);
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.knjiga h3 {
+  margin: 10px 0;
+}
+
+.knjiga img {
+  max-width: 100%;
+  height: auto;
+}
+
+.knjiga button {
+    margin-top: 2em;
+}
+
+.srceIkona {
+  width: 50px;
+}
+
+.slikaKnjige {
+  width: 13rem;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 2rem;
+}
+
+.button {
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.searchContainer label {
+  margin-right: 30px;
+  margin-bottom: 20px;
+  font-size:21px;
+  font-weight: bold;
+}
+
+.searchContainer input {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 35em;
+  box-sizing: border-box;
+}

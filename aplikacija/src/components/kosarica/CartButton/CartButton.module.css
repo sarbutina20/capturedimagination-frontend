@@ -1,0 +1,37 @@
+.gumb {
+  background-color: transparent;
+  border-color: #1ad1b9;
+  color: #1ad1b9;
+  padding: 10px;
+  margin:0;
+  height: auto;
+}
+
+.gumb:hover,
+.gumb:active {
+  color: white;
+}
+
+.gumb span {
+  margin: 0 0.5rem;
+  margin-top: 0.25rem;
+  margin-left: 0.75rem;
+}
+
+.brojStavki {
+  background-color: #1ad1b9;
+  border-radius: 30px;
+  padding: 0.15rem 1.25rem;
+  color: #1d1d1d;
+}
+
+.sadrzajGumba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ikona {
+  margin-top:6px;
+  width: 30px;
+}

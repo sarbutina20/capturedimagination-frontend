@@ -1,0 +1,42 @@
+
+.navTraka  {
+  list-style-type: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-top: 1.5em;
+  padding-bottom:1.5em;
+  margin-top: 10px;
+  margin-left: 30px;
+  background-color: #333;
+  height: 60px;
+}
+
+.navElement {
+  margin-right: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  transition: background-color 0.3s;
+  font-family: 'LatoRegular', sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+}
+
+.navLink:hover {
+  background-color: #555;
+  font-family: 'LatoBold', sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.cartButton {
+  display: flex;
+  margin-left: auto;
+  margin-right: 2em;
+  padding-left: 1em;
+}

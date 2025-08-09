@@ -1,0 +1,19 @@
+button {
+    font-family: "LatoRegular";
+    font-weight: normal;
+    padding: 14px 24px;
+    border: 1px solid darkred;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+button:hover {
+    font-family: "LatoBold";
+    font-weight: bold;
+    color: beige;
+    background-color: black;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+  }
+  
