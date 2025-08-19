@@ -144,9 +144,6 @@ export async function loaderKnjige(vrsta) {
 
     if (kljuc !== "Za Vas") {
       const spremljeniPodaci = JSON.stringify(knjige);
-      console.log(
-        `Spremanje ${kljuc} liste knjiga u lokalno spremište.`
-      );
       localStorage.setItem(JSON.stringify(kljuc), spremljeniPodaci);
     }
 

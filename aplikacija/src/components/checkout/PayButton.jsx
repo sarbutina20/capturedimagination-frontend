@@ -6,7 +6,6 @@ import { validacijaStavkiNarudzbe } from "../../validacija";
 const PayButton = () => {
   const stavke = useSelector((state) => state.cart.stavke);
 
-
   const checkoutHandler = async () => {
     const token = dohvatiToken();
     if (!token) {

@@ -1,5 +1,4 @@
 export const validacijaPrijava = (podaci) => {
-// I want to add SQL injection protection in this method
 
   let errorPoruke = [];
   const provjeraPostojanja = podaci.KorisnickoIme && podaci.Lozinka;
@@ -11,7 +10,6 @@ export const validacijaPrijava = (podaci) => {
     if (!provjeraIspunjenosti) {
       errorPoruke.push("Korisničko ime i lozinka su obavezni podaci");
     }
-    // here I want to add SQL injection protection
     const sqlZastita = podaci.KorisnickoIme.includes("'") || podaci.Lozinka.includes("'");
     if (sqlZastita) {
       errorPoruke.push("Ulazni parametri ne sviju sadržavati znak '");
