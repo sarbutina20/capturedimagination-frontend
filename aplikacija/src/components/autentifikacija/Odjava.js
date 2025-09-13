@@ -1,4 +1,4 @@
-import Cookies from "js-";
+import Cookies from "js-cookie";
 
 export const actionOdjava = () => {
     Cookies.remove('token');
